@@ -6,8 +6,8 @@ classes are denotedby '.'
 */
 
 body {
-	background-color: #fffcde;
-	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(to bottom right, #f6fffd, #89cfff);
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 #main {
@@ -23,9 +23,30 @@ body {
 	text-align: center;
 }
 
+#profile:hover {
+	background-image: url("https://e0.pxfuel.com/wallpapers/286/336/desktop-wallpaper-random-things-i-cant-explain-eggdog.jpg");
+}
+
 #profile-pic {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	border-radius: 100%;
+	width: 400px;
+	height: 400px;
 	margin: auto;
+}
+
+#secondary-image {
+	border-radius: 0%;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+
+}
+
+h1 {
+	color: #25d9d0;
+	text-shadow: 2px 2px #eac74d;
+}
+
+h2 {
+	color: #1e6965;
 }
